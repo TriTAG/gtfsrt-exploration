@@ -1,0 +1,4 @@
+
+*.gz
+
+data/trip-updates-archive-*
