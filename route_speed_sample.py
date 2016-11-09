@@ -26,7 +26,7 @@ errors_x = []
 errors_y = []
 proj = pyproj.Proj(proj='utm', zone=17, ellps='WGS84')
 
-grt_folder = '/Users/mboos/dev/grt-gtfs'
+grt_folder = 'data/gtfs'
 with open(os.path(grt_folder, 'shapes.txt')) as fp:
     shape_lines = read_csv(fp)
 shape_data = {}
