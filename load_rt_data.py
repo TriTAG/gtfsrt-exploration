@@ -23,7 +23,7 @@ collection.create_index([
 processed_times = []
 feed = gtfs_realtime_pb2.FeedMessage()
 
-for filename in glob('/Users/mboos/grt/exploration/data/vehicle-positions-*.tar.gz'):
+for filename in glob('data/gtfs-rt/vehicle-positions-deduped-archive-*.tar.bz2'):
     print filename
     last_samples = {}
     with tarfile.open(filename) as tf:

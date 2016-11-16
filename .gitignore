@@ -1,4 +1,4 @@
-
+*.swp
 *.gz
 
-data/trip-updates-archive-*
+/data
